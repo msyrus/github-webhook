@@ -1,0 +1,8 @@
+host: localhost
+port: 8000
+secret: 40asdd684as35d143d16as54d
+settings:
+  - refs:
+      - refs/heads/master
+    scripts:
+      - ./test.sh
